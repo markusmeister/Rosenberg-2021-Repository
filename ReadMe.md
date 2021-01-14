@@ -34,5 +34,5 @@ It contains all the data and code needed to reproduce the published analysis.
 ## How to view the raw videos
 You can find these on Youtube:
 
-- Rewarded animals: [https://www.youtube.com/playlist?list=PLm5UsX091_2X0ph_ldO3_lC9KFxqYpqo5]()
-- Unrewarded animals: [https://www.youtube.com/playlist?list=PLm5UsX091_2VTPPMrEEkTsFT8xbFdNi9I]()
+- [Rewarded animals](https://www.youtube.com/playlist?list=PLm5UsX091_2X0ph_ldO3_lC9KFxqYpqo5)
+- [Unrewarded animals](https://www.youtube.com/playlist?list=PLm5UsX091_2VTPPMrEEkTsFT8xbFdNi9I)
