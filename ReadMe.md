@@ -22,7 +22,7 @@ It contains all the data and code needed to reproduce the published analysis.
 ## How to reproduce all the analysis starting from raw data
 
 0. Read our paper. A version of Jan 2021 is included in the repo. Then read at least the start of `Maze_Analysis_3A`.  
-1. Empty the `outdata/` directory. Fill it with the contents of `outdata - tf files only`. Now you're starting with the raw trajectories of animals in the maze.
+1. Empty the `outdata/` directory. Fill it with the contents of `outdata - tf files only/`. Now you're starting with the raw trajectories of animals in the maze.
 2. Empty the `figs/` directory.
 3. Run the four notebooks `Maze_Analysis_3A`,...,`Maze_Analysis_3D` in alphabetical sequence.
 4. Now the `figs/` directory should contain all the figure panels plus a few extras. 
