@@ -169,9 +169,9 @@ def set_axes(axes, xlabel, ylabel, legend, loc, xlim, ylim, xscale, yscale,
     axes.tick_params(axis = 'both', which = 'major', labelsize = 10)
     axes.tick_params(axis = 'both', which = 'minor', labelsize = 9)
     if xticks:
-        axes.set_xticks(xticks,[]); # no minor ticks
+        axes.set_xticks(xticks,minor=False); # no minor ticks
     if yticks:
-        axes.set_yticks(yticks,[]); # no minor ticks
+        axes.set_yticks(yticks,minor=False); # no minor ticks
     if legend:
         axes.legend(legend, loc=loc)
     plt.draw()
