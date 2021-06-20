@@ -11,15 +11,17 @@ It contains all the data and code needed to reproduce the published analysis, as
 ## Contents of the repo
 `Maze_Analysis_3A`,...,`Maze_Analysis_3D`. These four jupyter notebooks cover the published preprint. They gradually develop the various topics of analysis, starting from raw data, producing figure panels and numerical results for the article along the way. They contain a good number of comments and mathematical sections to guide the user.
 
-`Maze_Analysis_3E` covers changes and additions made in response to peer review. SOme of this material appears in the revised article, see 'Revision.pdf'.
+`Maze_Analysis_3E` covers changes and additions made in response to peer review. Some of this material appears in the revised article, see `Revision.pdf`.
 
 `code/`: Contains python files with routines accessed from multiple notebooks.
 
 `outdata/`: A place for data files, both input and output. 
 
-`outdata - tf files only`: Just the raw data, the starting point for all analysis.
+`outdata - tf files only/`: Just the raw data, the starting point for all analysis.
 
 `figs/`: A place for PDF files that make up the figure panels in the article.
+
+`apparatus/`: Instructions and files for building the maze used in the article.
 
 ## How to reproduce all the analysis starting from raw data
 

@@ -6,7 +6,7 @@ from matplotlib import pyplot as plt
 def plot(X, Y=None, xlabel=None, ylabel=None, legend=[], loc=None, title=None,
          xlim=None, ylim=None, xscale='linear', yscale='linear',
          xticks=None, yticks=None, xhide=False, yhide=False, yrot=False, yzero=False, yflip=False, 
-         fmts=['g-', 'm--', 'b-.', 'r:'], linewidth=2, markersize=5, fillstyle='full',
+         fmts=['g-','m--','b-.','r:'], linewidth=2, markersize=5, fillstyle='full',
          markeredgewidth=1,
          grid=False, equal=False, figsize=(5,3), axes=None):
     """
@@ -113,7 +113,7 @@ def hist(X, bins=50, range=None, density=None, weights=None, histtype='stepfille
     else:
         ndata=len(X) # assuming it is an ndarray or a list of lists
     
-    if len(color)<ndata: # if there aren't enough dolors provided
+    if len(color)<ndata: # if there aren't enough colors provided
         col=None # use the default color sequence
     else:
         col=color[:ndata]
