@@ -1,12 +1,16 @@
 # Maze Analysis Repository
 
-MM 5/2/2021
+MM 7/10/2021
 
-This repo accompanies our preprint of 1/15/2021
+This repo accompanies our article:
 
-**Matthew Rosenberg, Tony Zhang, Pietro Perona, Markus Meister (2021) Mice in a labyrinth: Rapid learning, sudden insight, and efficient exploration (https://doi.org/10.1101/2021.01.14.426746)**
+**Rosenberg, M., Zhang, T., Perona, P., and Meister, M. (2021). Mice in a labyrinth exhibit rapid learning, sudden insight, and efficient exploration. ELife 10, e66175. (https://doi.org/10.7554/eLife.66175)**
 
-It contains all the data and code needed to reproduce the published analysis, as well as subsequent changes and additions made in response to peer review. 
+Also see the submitted version, published as a preprint 1/15/2021:
+
+**Rosenberg, M., Zhang, T., Perona, P., and Meister, M. (2021). Mice in a labyrinth: Rapid learning, sudden insight, and efficient exploration. BioRxiv 2021.01.14.426746. (https://doi.org/10.1101/2021.01.14.426746)**
+
+This repo contains all the data and code needed to reproduce the analysis in the preprint and the final eLife article. 
 
 ## Contents of the repo
 `Maze_Analysis_3A`,...,`Maze_Analysis_3D`. These four jupyter notebooks cover the published preprint. They gradually develop the various topics of analysis, starting from raw data, producing figure panels and numerical results for the article along the way. They contain a good number of comments and mathematical sections to guide the user.
