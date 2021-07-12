@@ -10,12 +10,16 @@ Also see the submitted version, published as a preprint 1/15/2021:
 
 **Rosenberg, M., Zhang, T., Perona, P., and Meister, M. (2021). Mice in a labyrinth: Rapid learning, sudden insight, and efficient exploration. BioRxiv 2021.01.14.426746. (https://doi.org/10.1101/2021.01.14.426746)**
 
-This repo contains all the data and code needed to reproduce the analysis in the preprint and the final eLife article. 
-
 ## Contents of the repo
-`Maze_Analysis_3A`,...,`Maze_Analysis_3D`. These four jupyter notebooks cover the published preprint. They gradually develop the various topics of analysis, starting from raw data, producing figure panels and numerical results for the article along the way. They contain a good number of comments and mathematical sections to guide the user.
+This repo contains all the data and code needed to reproduce the analysis in the submitted preprint and the revised version. 
 
-`Maze_Analysis_3E` covers changes and additions made in response to peer review. Some of this material appears in the revised article, see `Revision.pdf`.
+`Rosenberg_Preprint_20210114.pdf`: Our submitted manuscript.
+
+`Rosenberg_Revision.pdf`: Revised version after peer review at ELife.
+
+`Maze_Analysis_3A`,...,`Maze_Analysis_3D`. These four jupyter notebooks cover the submitted preprint. They gradually develop the various topics of analysis, starting from raw data, producing figure panels and numerical results for the article along the way. They contain a good number of comments and mathematical sections to guide the user.
+
+`Maze_Analysis_3E` covers changes and additions made in response to peer review. Some of this material appears in our revised article and the ELife version.
 
 `code/`: Contains python files with routines accessed from multiple notebooks.
 
@@ -29,10 +33,10 @@ This repo contains all the data and code needed to reproduce the analysis in the
 
 ## How to reproduce all the analysis starting from raw data
 
-0. Read our paper.The version of Jan 2021 is included in the repo. Then read at least the start of `Maze_Analysis_3A`.  
+0. Read our paper. The version of Jan 2021 is included in the repo. Then read at least the start of `Maze_Analysis_3A`.  
 1. Empty the `outdata/` directory. Fill it with the contents of `outdata - tf files only/`. Now you're starting with the raw trajectories of animals in the maze.
 2. Empty the `figs/` directory.
-3. Run the notebooks `Maze_Analysis_3A`,...,`Maze_Analysis_3D` in alphabetical sequence.
+3. Run the notebooks `Maze_Analysis_3A`,...,`Maze_Analysis_3E` in alphabetical sequence.
 4. Now the `figs/` directory should contain all the figure panels plus a few extras. 
 
 ## How to find code for a specific figure panel
